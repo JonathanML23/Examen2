@@ -1,0 +1,50 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Color de fondo */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff; /* Fondo del contenedor blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Color del texto principal */
+}
+
+label {
+    font-weight: bold;
+    color: #555; /* Color del texto de etiquetas */
+}
+
+.gridview-container {
+    margin-top: 20px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boton-volver-menu {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color del texto blanco */
+    text-decoration: none;
+    border: 2px solid #0056b3; /* Borde sólido de color azul oscuro */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+    .boton-volver-menu:hover {
+        background-color: #0056b3; /* Color de fondo azul oscuro al pasar el cursor */
+    }

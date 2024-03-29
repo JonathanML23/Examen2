@@ -1,0 +1,72 @@
+﻿.container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff; /* Fondo del contenedor blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Color del texto principal */
+}
+
+label {
+    font-weight: bold;
+    color: #555; /* Color del texto de etiquetas */
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    select:focus {
+        outline: none;
+        border-color: #66afe9; /* Borde azul claro al estar enfocado */
+    }
+
+input[type="submit"] {
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color del texto blanco */
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+
+    input[type="submit"]:hover {
+        background-color: #0056b3; /* Color de fondo azul oscuro al pasar el cursor */
+    }
+
+.mensaje {
+    color: red;
+}
+
+.boton-volver-menu {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color del texto blanco */
+    text-decoration: none;
+    border: 2px solid #0056b3; /* Borde sólido de color azul oscuro */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+    .boton-volver-menu:hover {
+        background-color: #0056b3; /* Color de fondo azul oscuro al pasar el cursor */
+    }

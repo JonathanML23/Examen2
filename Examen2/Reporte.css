@@ -1,0 +1,38 @@
+﻿.container {
+    width: 51%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 135px;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+.cantidad-encuestas,
+.cantidad-si,
+.cantidad-no {
+    margin-left: 10px;
+}
+
+.boton-volver-menu {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #0056b3;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    height: 34px;
+    width: 147px;
+}
+
+    .boton-volver-menu:hover {
+        background-color: #0056b3;
+    }
